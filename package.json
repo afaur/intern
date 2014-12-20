@@ -23,10 +23,6 @@
 	"devDependencies": {
 		"intern": "2.2.2"
 	},
-	"scripts": {
-		"install": "node support/fixdeps.js",
-		"update": "node support/fixdeps.js"
-	},
 	"bugs": "https://github.com/theintern/intern/issues",
 	"keywords": [ "javascript", "test", "unit", "testing", "ci", "continuous integration", "bdd", "tdd", "xunit", "istanbul", "chai", "dojo", "toolkit", "selenium", "sauce labs", "code coverage" ],
 	"homepage": "http://theintern.io/",
