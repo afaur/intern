@@ -14,8 +14,7 @@
 		"chai": "1.9.1",
 		"leadfoot": "1.2.1",
 		"digdug": "1.2.1",
-		"charm": "0.2.0",
-		"diff": "1.1.0"
+		"charm": "0.2.0"
 	},
 	"devDependencies": {
 		"intern": "2.2.2"

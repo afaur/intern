@@ -22,7 +22,6 @@ define({
 			'intern-selftest': {
 				dojo: 'intern-selftest/node_modules/dojo',
 				chai: 'intern-selftest/node_modules/chai/chai',
-				diff: 'intern-selftest/node_modules/diff/diff'
 			}
 		}
 	},
