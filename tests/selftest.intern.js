@@ -31,7 +31,7 @@ define({
 		'intern-selftest/tests/unit/all'
 	],
 	functionalSuites: [
-		'intern-selftest/tests/functional/lib/ProxiedSession'
+		'intern-selftest/tests/functional/lib/search'
 	],
 
 	excludeInstrumentation: /^(?:tests|node_modules)\//,
