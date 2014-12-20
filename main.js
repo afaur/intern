@@ -1,19 +1,13 @@
 define([
 	'require',
 	'dojo/Deferred',
-	'./lib/args',
 	'./lib/util'
-], function (require, Deferred, args, util) {
+], function (require, Deferred, util) {
 	return {
 		/**
 		 * The mode in which Intern is currently running. Either 'client' or 'runner'.
 		 */
 		mode: null,
-
-		/**
-		 * The arguments received from the environment for the current test run.
-		 */
-		args: args,
 
 		/**
 		 * The configuration data in use for the current test run.
