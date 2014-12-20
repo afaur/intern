@@ -1,7 +1,7 @@
 define([
   'intern!bdd',
   'intern/chai!expect',
-  'intern/dojo/node!leadfoot/helpers/pollUntil'
+  'dojo/node!leadfoot/helpers/pollUntil'
 ], function (bdd, expect, pollUntil) {
   with(bdd) {
     describe('Search', function() {
