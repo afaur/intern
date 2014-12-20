@@ -27,11 +27,8 @@ define({
 		}
 	},
 
-	suites: [
-		'intern-selftest/tests/unit/all'
-	],
 	functionalSuites: [
-		'intern-selftest/tests/functional/lib/search'
+		'intern-selftest/tests/functional/search'
 	],
 
 	excludeInstrumentation: /^(?:tests|node_modules)\//,
